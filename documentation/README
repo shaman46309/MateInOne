@@ -1,0 +1,13 @@
+Objective:
+Provide a C++ library to solve all mate_in_one puzzles in inputs/mate_in_one.pgn
+
+Plan:
+1. Create protobuf representation of chess game state.
+Comment: Why not simply use the pgn representation which is compact too?
+
+2. Create input reader lib.
+
+3. Code rules for determining if a given state is Mated.
+
+4. Code rules for legal moves.
+
